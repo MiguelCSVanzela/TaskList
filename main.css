@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Source Serif Pro', serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    width: 100%;
+    text-align: center;
+}
+
+form,
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ul {
+    flex-direction: column;
+}
+
+input,
+button {
+    margin: 8px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+input {
+    background-color: #fff;
+    border: 1px solid gray;
+}
+
+button {
+    background-color: #313131;
+    color: #fff;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: circle;
+    cursor: grabbing;
+}
+
+.feita {
+    text-decoration: line-through;
+    list-style-type: disc;
+    color: gray;
+}
